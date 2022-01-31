@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel'
 ]
 
 intersphinx_mapping = {
@@ -30,6 +31,14 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'furo'
+html_static_path = ['../_static']
+html_theme_options = {
+    'sidebar_hide_name': True,
+    'navigation_with_keys': True,
+    'announcement': "<em>This site is a work in progress.</em>",
+    'light_logo': 'nelogonew.png',
+    'dark_logo': 'nelogonew.png'
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

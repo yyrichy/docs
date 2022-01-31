@@ -15,3 +15,4 @@ Contents
 .. toctree::
 
    start
+   roofs/index
