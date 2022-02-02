@@ -1,2 +1,2 @@
-BTE Northeast Documentation
-===========================
+`BTE Northeast Documentation <https://btene.readthedocs.io/>`_
+===============================================================
