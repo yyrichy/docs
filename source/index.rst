@@ -15,4 +15,6 @@ Contents
 .. toctree::
 
    start
+   id
+   measure
    roofs/index
