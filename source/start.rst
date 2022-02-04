@@ -1,7 +1,9 @@
 How To Start Building
 =====================
 
-.. note:: Ask in our Discord server for any questions!
+.. note:: 
+    
+    Ask in our Discord server for any questions!
 
 Joining the Minecraft Server
 ----------------------------
@@ -20,25 +22,25 @@ We have designated application areas for builders to create a trial build. You c
 
 Recreating a Real Life Building in Miniecraft
 ----------------------------------------------
-.. note:: Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed
+.. note:: 
+    
+    Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed
 
 * Fly around in the application area in Minecraft and find an area with no building below you
 * Use the command ``/where`` and open the Google Maps link
 * Create an outline of your building following the video below:
 
-.. raw:: html
+.. dropdown:: Video
+    :title: bg-dark text-white font-italic
+    :body: bg-secondary font-weight-bold
 
-    <details>
-        <summary>Detailed Extra Info</summary>
+    .. image:: ../_static/outline.mp4
+        :width: 600
+        :alt: Click Here
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </details>
+    The command ``//line <block ID>`` uses a :ref:`Block ID` or pattern of block IDs for input.
 
-.. image:: ../_static/outline.mp4
-    :width: 600
-    :alt: Outline
-
-* Extend outline upward to the height of the walls
+* Measure the height of the walls: :ref:`Measuring`
 * Create the roof of the building: :doc:`roofs/index`
 
 ...
