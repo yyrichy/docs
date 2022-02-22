@@ -7,7 +7,7 @@ How To Start Building
 
 Joining the Minecraft Server
 ----------------------------
-* **JAVA**: Use the IP address ``play.btene.com``, download the modpack installer for your Operating System from `here <https://buildtheearth.net/faq>`_, then watch `this video <https://www.youtube.com/watch?v=T174gWwD1MU>`_.
+* **JAVA**: Use the IP address ``play.btene.com``, download the modpack installer for your Operating System from `this faq <https://buildtheearth.net/faq>`_, then watch `this video <https://www.youtube.com/watch?v=T174gWwD1MU>`_.
 * **Bedrock**: There is currently no bedrock support, this is likely to change, so keep a close eye on our Discord.
 
 When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server.
@@ -30,17 +30,23 @@ Recreating a Real Life Building in Miniecraft
 * Use the command ``/where`` and open the Google Maps link
 * Create an outline of your building following the video below:
 
-.. dropdown:: Video
-    :title: bg-dark text-white font-italic
-    :body: bg-secondary font-weight-bold
-
-    .. image:: ../_static/start/outline.mp4
-        :width: 600
-        :alt: Click Here
+.. figure:: ../_static/start/outline.mp4
+    :width: 600
+    :alt: Click Here
 
     The command ``//line <block ID>`` uses a :ref:`Block ID` or pattern of block IDs for input.
 
-* Measure the height of the walls: :ref:`Measuring`
-* Create the roof of the building: :doc:`roofs/index`
+* :ref:`Measure <Measuring>` then create the walls
+* :doc:`Create the roof <roofs/index>` of the building
 
-...
+You should now have a basic "shell" of the building
+
+* Place the :ref:`doors, windows, chimneys, every part <Detailing>` of the building
+
+You should now have a completed building!
+
+* Submit the build `here <https://buildtheearth.net/bte-northeast>`_ using `imgur <https://imgur.com>`_ to create links
+
+.. tip::
+    
+    For the question "URL to screenshots(s) of previous builds..." use your newly created build
