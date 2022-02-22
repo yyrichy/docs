@@ -1,7 +1,7 @@
 Dormer
 ======
 
-.. figure:: ../../_static/roof-dormer.jpeg
+.. figure:: ../../_static/roofs/roof-dormer.jpeg
     :width: 600
     :alt: Dormer roof
 

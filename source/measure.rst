@@ -21,7 +21,7 @@ Google Earth Pro
     | ``Left Click + Drag``: Pan around
     | ``Left Click + CTRL + Drag``: Rotate up/down/counter-clockwise/clockwise
 
-.. image:: ../_static/measure.mp4
+.. image:: ../_static/measure/measure.mp4
     :width: 600
     :alt: Click Here
 
@@ -37,7 +37,7 @@ Use doors, cars, humans, and other objects you know the size of, then mentally o
 
 Example
 ```````
-.. figure:: ../_static/measurewithdoors.jpeg
+.. figure:: ../_static/measure/measure-with-door-house.jpeg
     :width: 600
     :alt: Suburban house
 

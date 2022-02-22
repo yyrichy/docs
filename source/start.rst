@@ -34,7 +34,7 @@ Recreating a Real Life Building in Miniecraft
     :title: bg-dark text-white font-italic
     :body: bg-secondary font-weight-bold
 
-    .. image:: ../_static/outline.mp4
+    .. image:: ../_static/start/outline.mp4
         :width: 600
         :alt: Click Here
 
