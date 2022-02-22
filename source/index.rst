@@ -17,4 +17,5 @@ Contents
    start
    id
    measure
+   detail
    roofs/index
