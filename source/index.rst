@@ -7,7 +7,7 @@ If you want to help build check out the :doc:`start` section for further informa
 
 .. note::
 
-   This documentation is under progress.
+   This documentation is uncomplete
 
 Contents
 --------

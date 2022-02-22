@@ -7,14 +7,14 @@ How To Start Building
 
 Joining the Minecraft Server
 ----------------------------
-* **JAVA**: Use the IP address ``play.btene.com``, download the modpack installer for your Operating System from `this faq <https://buildtheearth.net/faq>`_, then watch `this video <https://www.youtube.com/watch?v=T174gWwD1MU>`_.
-* **Bedrock**: There is currently no bedrock support, this is likely to change, so keep a close eye on our Discord.
+* **JAVA**: Use the IP address ``play.btene.com``, download the modpack installer for your Operating System from `this faq <https://buildtheearth.net/faq>`_, then watch `this video <https://www.youtube.com/watch?v=T174gWwD1MU>`_
+* **Bedrock**: There is currently no bedrock support, this is likely to change, so keep a close eye on our Discord
 
-When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server.
+When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server
 
 Getting to the Application Area
 --------------------------------
-We have designated application areas for builders to create a trial build. You can build anywhere in the Northeastern US *after* you have been accepted.
+We have designated application areas for builders to create a trial build. You can build anywhere in the Northeastern US *after* you have been accepted
 
 #. Type the command ``/apply`` in chat
 #. If you in spectator mode you will be automatically teleported to the Suburban application area, else pick an application area: Suburban or Urban
@@ -34,7 +34,7 @@ Recreating a Real Life Building in Miniecraft
     :width: 600
     :alt: Click Here
 
-    The command ``//line <block ID>`` uses a :ref:`Block ID` or pattern of block IDs for input.
+    The command ``//line <block ID>`` uses a :ref:`Block ID` or pattern of block IDs for input
 
 * :ref:`Measure <Measuring>` then create the walls
 * :doc:`Create the roof <roofs/index>` of the building
