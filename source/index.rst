@@ -13,10 +13,12 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 3
 
    start
    id
    measure
    headandbanner
+   worldedit
    detail
    roofs/index
