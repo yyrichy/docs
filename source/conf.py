@@ -29,7 +29,7 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-pygments_style = 'manni'
+pygments_style = 'perldoc'
 pygments_dark_style = 'monokai'
 
 # -- Options for HTML output
