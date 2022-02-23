@@ -13,7 +13,3 @@ Dormer
 * Figure out the angle of the dormer roof's walls perpindicular to the roof's edge, and mark the corners closest to the roof's surface. If it is less than 2 wide, mark the center of the wall with one block
 
 Because dormer roofs vary so much from building to building, the rest of the contruction needs to be determined by you.
-
-Examples
---------
-...
