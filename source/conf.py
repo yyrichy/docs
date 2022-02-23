@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'BTE NE'
-copyright = '2021, vaporrrr'
+copyright = '2022, vaporrrr'
 author = 'vaporrrr'
 
 release = '0.1'
