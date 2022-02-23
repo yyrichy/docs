@@ -29,18 +29,29 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+pygments_style = 'murphy'
+pygments_dark_style = 'monokai'
+
 # -- Options for HTML output
 
 html_theme = 'furo'
-
+html_title = 'BTE Northeast Docs'
 html_static_path = ['../_static']
 html_favicon = '../_static/favicon.ico'
 html_theme_options = {
     'sidebar_hide_name': True,
     'navigation_with_keys': True,
-    'announcement': "<em>This site is a work in progress.</em>",
+    'announcement': '<em>This site is a work in progress.</em>',
     'light_logo': 'nelogonew.png',
-    'dark_logo': 'nelogonew.png'
+    'dark_logo': 'nelogonew.png',
+    'light_css_variables': {
+        'color-brand-primary': '#3864ED',
+        'color-brand-content': '#0997C1',
+    },
+    'dark_css_variables': {
+        'color-brand-primary': '#3864ED',
+        'color-brand-content': '#2AE1FF',
+    },
 }
 
 # -- Options for EPUB output
