@@ -17,5 +17,6 @@ Contents
    start
    id
    measure
+   headandbanner
    detail
    roofs/index

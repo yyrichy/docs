@@ -3,20 +3,26 @@ Detailing
 
 Door
 ----
+There's a huge amount of door styles that require differnet techiniques, but here are a few common examples.
+
+Suburban
+````````
+...
+
+Urban
+`````
 ...
 
 Window
 ------
-...
+Helpful `window guidebook <https://docs.google.com/document/d/1MlseHc18IvSbAIEWgbR-Q1p5v4QTOXZ04Y2NyTk_7Dg/edit#>`_ by London.
 
 Light
 -----
 
 Lamp
 ````
-.. code-block::
-
-    /hdb search lamp
+Find a lamp :doc:`custom head <headandbanner>` closely resembling the one IRL.
 
 On Wall
 '''''''
@@ -40,15 +46,4 @@ Pergola (Deck / Patio Roof)
 
 Sign
 ----
-Use banners:
-
-.. code-block::
-
-    /banner
-
-Use custom heads:
-
-.. code-block::
-
-    /hdb
-    /hdb search _
+Use a :doc:`head/banner <headandbanner>`.
