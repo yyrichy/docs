@@ -1,11 +1,7 @@
 Creating Roofs
 ==============
 
-Roof Types
-----------
-
 .. toctree::
-    :glob:
 
     dormer
     flat
@@ -13,4 +9,3 @@ Roof Types
     hip
     saltbox
     shed
-    
