@@ -10,18 +10,18 @@ Joining the Minecraft Server
 * **JAVA**: Use the IP address ``play.btene.com``, download the modpack installer for your Operating System from `this faq <https://buildtheearth.net/faq>`_, then watch `this video <https://www.youtube.com/watch?v=T174gWwD1MU>`_
 * **Bedrock**: There is currently no bedrock support, this is likely to change, so keep a close eye on our Discord
 
-When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server
+When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server.
 
-Getting to the Application Area
+Going to the Application Area
 --------------------------------
-We have designated application areas for builders to create a trial build. You can build anywhere in the Northeastern US *after* you have been accepted
+We have designated application areas for builders to create a trial build. You can build anywhere in the Northeastern US *after* you have been accepted.
 
 #. Type the command ``/apply`` in chat
 #. If you in spectator mode you will be automatically teleported to the Suburban application area, else pick an application area: Suburban or Urban
 #. If you want to choose a different application area, or you weren't given a choice, use the command ``/apply`` again
 
-Recreating a Real Life Building in Miniecraft
-----------------------------------------------
+Building
+--------
 .. note:: 
     
     Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed
@@ -34,12 +34,21 @@ Recreating a Real Life Building in Miniecraft
     :width: 600
     :alt: Click Here
 
-    The command ``//line <block ID>`` uses a :ref:`Block ID` or pattern of block IDs for input
+    The command ``//line <pattern>`` uses a :ref:`pattern <Pattern>`. I suggest using a :ref:`single block pattern <Single Block>` of a :ref:`block ID <Block ID>`.
 
-* :ref:`Measure <Measuring>` then create the walls
+* :ref:`Measure <Measuring>` then create the walls. You can quickly stack up the walls by using an :ref:`offset mask <Offset>` with the ``//replace`` command, then repeatedly execute the command.
+
+.. topic:: Example: Stacking up walls
+
+    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. ``x`` is the :ref:`pattern <Pattern>`/:ref:`block ID <Block ID>` you used creating the oultine.
+
+    Command::
+
+        //replace >x x
+
 * :doc:`Create the roof <roofs/index>` of the building
 
-You should now have a basic "shell" of the building
+You should now have a basic "shell" of the building.
 
 * Place the :ref:`doors, windows, chimneys, every part <Detailing>` of the building
 
