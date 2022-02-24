@@ -47,7 +47,7 @@ html_theme_options = {
     'light_css_variables': {
         'color-brand-primary': '#3864ED',
         'color-brand-content': '#0997C1',
-        'color-admonition-background': '#EDEDED'
+        'color-admonition-background': '#F7F7F7'
     },
     'dark_css_variables': {
         'color-brand-primary': '#3864ED',
