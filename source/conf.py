@@ -23,7 +23,7 @@ extensions = [
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None)
 }
 intersphinx_disabled_domains = ['std']
 
@@ -47,11 +47,13 @@ html_theme_options = {
     'light_css_variables': {
         'color-brand-primary': '#3864ED',
         'color-brand-content': '#0997C1',
+        'color-admonition-background': '#EDEDED'
     },
     'dark_css_variables': {
         'color-brand-primary': '#3864ED',
         'color-brand-content': '#2AE1FF',
-    },
+        'color-admonition-background': '#383838'
+    }
 }
 
 # -- Options for EPUB output
