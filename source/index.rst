@@ -1,6 +1,5 @@
 Welcome to BTE Northeast's documentation!
 =========================================
-
 Documentation for the **BTE Northeast** build team.
 
 If you want to help build check out the :doc:`start` section for further information.
@@ -11,7 +10,6 @@ If you want to help build check out the :doc:`start` section for further informa
 
 Contents
 --------
-
 .. toctree::
    :maxdepth: 3
 

@@ -1,6 +1,5 @@
 How To Start Building
 =====================
-
 .. note:: 
     
     Ask in our Discord server for any questions!
@@ -20,37 +19,54 @@ We have designated application areas for builders to create a trial build. You c
 #. If you in spectator mode you will be automatically teleported to the Suburban application area, else pick an application area: Suburban or Urban
 #. If you want to choose a different application area, or you weren't given a choice, use the command ``/apply`` again
 
-Building
---------
+Choosing a Building
+--------------------
 .. note:: 
     
     Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed
 
 * Fly around in the application area in Minecraft and find an area with no building below you
-* Use the command ``/where`` and open the Google Maps link
-* Create an outline of your building following the video below:
+* Use the command ``/where`` and open the Google Maps link. The map is your Minecraft location in real life.
 
-.. figure:: ../_static/start/outline.mp4
-    :width: 600
-    :alt: Click Here
-
-    The command ``//line <pattern>`` uses a :ref:`pattern <Pattern>`. I suggest using a :ref:`single block pattern <Single Block>` of a :ref:`block ID <Block ID>`.
-
-* :ref:`Measure <Measuring>` then create the walls. You can quickly stack up the walls by using an :ref:`offset mask <Offset>` with the ``//replace`` command, then repeatedly execute the command.
-
-.. topic:: Example: Stacking up walls
-
-    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. ``x`` is the :ref:`pattern <Pattern>`/:ref:`block ID <Block ID>` you used creating the oultine.
+Creating Outline
+----------------
+.. topic:: Example: Creating an outline
 
     Command::
 
-        //replace >x x
+        //line <pattern>
 
+    The command uses a :ref:`pattern <Pattern>`. For this case use a :ref:`single block pattern <Single Block>`.
+
+    .. image:: ../_static/start/outline.mp4
+        :width: 700
+        :alt: Click Here
+
+Creating Walls
+--------------
+* :ref:`Measure <Measuring>` the height of the walls. You can quickly stack up the walls by following the example below. Alternatively you can simply place blocks by hand.
+
+.. topic:: Example: Stacking up walls
+
+    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. :ref:`<mask> <Mask>` and :ref:`<pattern> <Pattern>` are the :ref:`block ID <Block ID>` you used creating the outline.
+
+    Command::
+
+        //replace ><mask> <pattern>
+
+    Example
+
+    .. image:: ../_static/start/outline.mp4
+        :width: 700
+        :alt: Click Here
+
+Adding House Features
+---------------------
 * :doc:`Create the roof <roofs/index>` of the building
 
 You should now have a basic "shell" of the building.
 
-* Place the :ref:`doors, windows, chimneys, every part <Detailing>` of the building
+* Place the :ref:`doors, windows, chimneys, fence, patio, every part <Detailing>` of the building
 
 You should now have a completed building!
 
