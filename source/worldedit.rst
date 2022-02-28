@@ -4,7 +4,7 @@ WorldEdit
 
 .. attention::
 
-    Arguments surrounded by "[" and "]" are optional, those surrounded by "<" and ">" are required.
+    Arguments surrounded by ``[ ]`` are optional, those surrounded by ``< >`` are required.
 
 Other Resources
 ---------------
