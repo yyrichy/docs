@@ -9,17 +9,8 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXOPTS=
-set TARGET=%1
-
 if "%1" == "" goto help
-if "%1" == "clean" goto clean
-goto :run
-
-:clean
-echo.CLEAN BUILD with -E -a 
-set %TARGET% = "html"
-set %SPHINXOPTS% = "-E -a"
+if "%1" == "livehtml" goto livehtml
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -39,6 +30,11 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+goto end
+
+:livehtml
+sphinx-autobuild -b html %SOURCEDIR% %BUILDDIR%/html %SPHINXOPTS%
+goto end
 
 :end
 popd
