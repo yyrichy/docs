@@ -1,8 +1,8 @@
 How To Start Building
 =====================
-.. note:: 
+.. tip:: 
     
-    Ask in our Discord server for any questions!
+    Ask in our `Discord <https://discord.gg/Gx3d28v>`_ for any questions!
 
 Joining the Minecraft Server
 ----------------------------
@@ -32,11 +32,17 @@ Creating Outline
 ----------------
 .. topic:: Example: Creating an outline
 
+    Mark each corner of the building, then select the two corners of and connect them for each wall with ``//line``. We use ``//line`` to create a straight line at any angle.
+    
+    This command uses a :ref:`pattern <Pattern>`. For this case use a :ref:`single block pattern <Single Block>`.
+
     Command::
 
         //line <pattern>
 
-    The command uses a :ref:`pattern <Pattern>`. For this case use a :ref:`single block pattern <Single Block>`.
+    Example for yellow wool::
+
+        //line 35:4
 
     .. image:: ../_static/start/outline.mp4
         :width: 700
@@ -44,17 +50,19 @@ Creating Outline
 
 Creating Walls
 --------------
-* :ref:`Measure <Measuring>` the height of the walls. You can quickly stack up the walls by following the example below. Alternatively you can simply place blocks by hand.
+* :ref:`Measure <Measuring>` the height of the walls. You can quickly stack up the walls with WorldEdit by following the example below. Alternatively you can simply place blocks by hand.
 
 .. topic:: Example: Stacking up walls
 
-    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. :ref:`<mask> <Mask>` and :ref:`<pattern> <Pattern>` are the :ref:`block ID <Block ID>` you used creating the outline.
+    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. :ref:`<mask> <Mask>` and :ref:`<pattern> <Pattern>` are the :ref:`block ID <Block ID>` for the :ref:`single block pattern <Single Block>` you used creating the outline. The ``>`` is an :ref:`offset mask <Offset>`.
 
     Command::
 
         //replace ><mask> <pattern>
+    
+    Example for yellow wool::
 
-    Example
+        //replace >35:4 35:4
 
     .. image:: ../_static/start/outline.mp4
         :width: 700
