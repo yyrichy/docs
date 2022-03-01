@@ -1,4 +1,3 @@
-import recommonmark
 from recommonmark.transform import AutoStructify
 # Configuration file for the Sphinx documentation builder.
 

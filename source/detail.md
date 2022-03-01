@@ -24,7 +24,7 @@ Helpful [window guidebook](https://docs.google.com/document/d/1MlseHc18IvSbAIEWg
 
 ### Lamp
 
-Find a lamp [custom head](./headandbanner.md) closely resembling the one IRL.
+Find a lamp [custom head](headandbanner) closely resembling the one IRL.
 
 #### On Wall
 
@@ -48,4 +48,4 @@ Find a lamp [custom head](./headandbanner.md) closely resembling the one IRL.
 
 ## Sign
 
-Use a [head/banner](./headandbanner.md).
+Use a [head/banner](headandbanner).

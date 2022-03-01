@@ -42,7 +42,7 @@ We have designated application areas for builders to create a trial build. You c
 ```
 
 ## Creating Walls
-- [Measure](./measure.md) the height of the walls. You can quickly stack up the walls with WorldEdit by following the example below. Alternatively you can simply place blocks by hand.
+- [Measure](measure) the height of the walls. You can quickly stack up the walls with WorldEdit by following the example below. Alternatively you can simply place blocks by hand.
 
 ```eval_rst
 .. topic:: Example: Stacking up walls
@@ -67,11 +67,11 @@ We have designated application areas for builders to create a trial build. You c
 
 Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed in real life. If a window is 1 meter tall IRL, then it should be one block tall in Minecraft, even if it might look weird to you.
 
-- [Create the roof](./roofs/index.md) of the building
+- [Create the roof](roofs/index) of the building
 
 You should now have a basic "shell" of the building.
 
-- Place the [doors, windows, chimneys, fence, patio, every part](./detail.md) of the building. You can find examples of application builds [here](./examples.md)
+- Place the [doors, windows, chimneys, fence, patio, every part](detail) of the building. You can find examples of application builds [here](examples)
 ```eval_rst
 .. important:: 
     

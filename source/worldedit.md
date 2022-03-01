@@ -1,6 +1,6 @@
 # WorldEdit
 
-`WorldEdit <https://enginehub.org/worldedit/>`_ has many and many abilities this document only covers some of them.
+[WorldEdit](https://enginehub.org/worldedit/) has many and many abilities this document only covers some of them.
 
 ```eval_rst
 .. attention::
@@ -22,7 +22,7 @@
 
 ## Commands
 ### //set
-Sets selection to the given pattern. Uses a :ref:`pattern <Pattern>`.
+Sets selection to the given pattern. Uses a [pattern](#pattern).
 ```eval_rst
 .. code-block::
 
@@ -30,21 +30,21 @@ Sets selection to the given pattern. Uses a :ref:`pattern <Pattern>`.
 
 ```
 ### //replace
-Replaces "from" to "to". Uses a :ref:`mask <Mask>` and :ref:`pattern <Pattern>`.
+Replaces "from" to "to". "from" is a [mask](#mask) and "to" is a [pattern](#pattern).
 ```eval_rst
 .. code-block::
 
-    //replace [from (mask)] <to (pattern)>
+    //replace [from] <to>
 
 ```
 ## Pattern
 A pattern determines what blocks a command places.
 
-- [Detailed explanation of a pattern](https://worldedit.enginehub.org/en/latest/usage/general/patterns/) including advanced types of patterns. (Explanation uses 1.13+ names, keep in mind we use [1.12.2 IDs](./id.md) It also contains features not present in our older version of WorldEdit)
+- [Detailed explanation of a pattern](https://worldedit.enginehub.org/en/latest/usage/general/patterns/) including advanced types of patterns. (Explanation uses 1.13+ names, keep in mind we use [1.12.2 IDs](id) It also contains features not present in our older version of WorldEdit)
 
 [single block pattern]: #single-block-pattern
 ### Single Block
-Inorder to WorldEdit with a singular block, use a singular :doc:`block ID <id>`.
+Inorder to WorldEdit with a singular block, use a singular [block ID](id).
 ```eval_rst
 .. topic:: Example: Setting Orange Wool
 
@@ -58,7 +58,7 @@ Inorder to WorldEdit with a singular block, use a singular :doc:`block ID <id>`.
 
 ```
 ### Random
-Inorder to WorldEdit with multiple blocks in a random pattern, use multiple patterns/[block IDs](./id.md)
+Inorder to WorldEdit with multiple blocks in a random pattern, use multiple patterns/[block IDs](id)
 
 You can specify weights by adding a `x%` in front of the pattern.
 ```eval_rst
@@ -86,7 +86,7 @@ You can specify weights by adding a `x%` in front of the pattern.
 
 ```
 ## Mask
-[Detailed explanation of a mask](https://worldedit.enginehub.org/en/latest/usage/general/masks/), including advanced types of patterns. (Explanation uses 1.13+ names, keep in mind we use [1.12.2 IDs](./id.md) It also contains features not present in our older version of WorldEdit)
+[Detailed explanation of a mask](https://worldedit.enginehub.org/en/latest/usage/general/masks/), including advanced types of patterns. (Explanation uses 1.13+ names, keep in mind we use [1.12.2 IDs](id) It also contains features not present in our older version of WorldEdit)
 
 ### Block
 Works the same as a [single block](#single-block) or [random block](#random) pattern.
