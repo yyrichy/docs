@@ -1,5 +1,6 @@
-Creating Roofs
-==============
+# Creating Roofs
+
+```eval_rst
 .. toctree::
 
     dormer
@@ -8,3 +9,4 @@ Creating Roofs
     hip
     saltbox
     shed
+```

@@ -1,3 +1,5 @@
+import recommonmark
+from recommonmark.transform import AutoStructify
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
@@ -12,6 +14,7 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'recommonmark',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -58,3 +61,12 @@ html_theme_options = {
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            #'url_resolver': lambda url: github_doc_root + url,
+            'enable_math': False,
+            'enable_inline_math': False,
+            'enable_eval_rst': True,
+        }, True)
+    app.add_transform(AutoStructify)

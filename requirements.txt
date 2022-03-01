@@ -2,3 +2,4 @@ sphinx>3
 furo
 sphinx-panels
 sphinx-autobuild
+recommonmark
