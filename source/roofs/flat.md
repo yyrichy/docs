@@ -1,6 +1,6 @@
 # Flat
 
-The most basic of all roofs. Depending on the specific building, it can vary a little. If your roof has a "slope" look[here](shed).
+The most basic of all roofs. Depending on the specific building, it can vary a little. If your roof has a "slope" look[here](./shed).
 
 - Go inside the exterior walls
 - Make sure your legs are below the top of the exterior walls
