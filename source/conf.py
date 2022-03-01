@@ -47,12 +47,12 @@ html_theme_options = {
     'light_logo': 'nelogonew.png',
     'dark_logo': 'nelogonew.png',
     'light_css_variables': {
-        'color-brand-primary': '#3864ED',
+        'color-brand-primary': '#111111',
         'color-brand-content': '#0997C1',
         'color-admonition-background': '#F7F7F7'
     },
     'dark_css_variables': {
-        'color-brand-primary': '#3864ED',
+        'color-brand-primary': '#EEEEEE',
         'color-brand-content': '#2AE1FF',
         'color-admonition-background': '#383838'
     }
