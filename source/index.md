@@ -1,8 +1,13 @@
-# Welcome to BTE Northeast's documentation!
+# Welcome to BTE Northeast's Documentation!
 
-Documentation for the **BTE Northeast** build team.
+If you want to help build check out the [How to Start Building](./start.md) section for further information.
 
-If you want to help build check out the [start](./start.md) section for further information.
+```eval_rst
+.. tip:: 
+    
+    Ask in our `Discord <https://discord.gg/Gx3d28v>`_ if you need any help!
+
+```
 
 ```eval_rst
 .. note::
@@ -15,7 +20,7 @@ If you want to help build check out the [start](./start.md) section for further 
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    start
    examples

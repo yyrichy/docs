@@ -1,16 +1,9 @@
 # How To Start Building
 
-```eval_rst
-.. tip:: 
-    
-    Ask in our `Discord <https://discord.gg/Gx3d28v>`_ for any questions!
+## Joining the Minecraft Server | play.btene.com
 
-```
-
-## Joining the Minecraft Server
-
-- **JAVA**: `play.btene.com` Download the modpack installer for your operating system from the [bte faq](https://buildtheearth.net/faq), then watch [this installer tutorial video](https://www.youtube.com/watch?v=T174gWwD1MU)
-- **Bedrock**: There is **currently no bedrock support**, however this is **likely to change**, so keep a close eye on our Discord
+- **JAVA**: Download the modpack installer for your operating system from the [bte faq](https://buildtheearth.net/faq), then watch [this installer tutorial video](https://www.youtube.com/watch?v=T174gWwD1MU). Go to the `Multiplayer` tab, click `Add Server`, and for the `Server Address` enter `play.btene.com`. The `Server Name` can be anything you want. Click `Done` and double click the newly added server in the list.
+- **Bedrock**: There is **currently no bedrock support**, however this is **likely to change**, so keep a close eye on our [Discord](https://discord.gg/Gx3d28v)
 
 When joining the server you will be prompted to link your account. Follow the directions given on your screen or in the chat, then rejoin the Minecraft server.
 
@@ -19,7 +12,7 @@ We have designated application areas for builders to create a trial build. You c
 
 1. Type the command `/apply` in chat
 2. If you are in spectator mode you will be automatically teleported to the **Suburban** application area, else pick an application area: **Suburban** or **Urban**
-3. If you want to choose a different application area, or you weren't given a choice, use the command `/apply` again
+> If you want to choose a different application area, or you weren't given a choice, use the command `/apply` again
 
 ## Choosing a Building
 1. Fly around in the application area in Minecraft and find an area with no building below you
@@ -72,24 +65,25 @@ We have designated application areas for builders to create a trial build. You c
 
 ## Adding House Features
 
-```eval_rst
-.. note:: 
-    
-    Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed in real life
+Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed in real life. If a window is 1 meter tall IRL, then it should be one block tall in Minecraft, even if it might look weird to you.
 
-```
 - [Create the roof](./roofs/index.md) of the building
 
 You should now have a basic "shell" of the building.
 
 - Place the [doors, windows, chimneys, fence, patio, every part](./detail.md) of the building. You can find examples of application builds [here](./examples.md)
+```eval_rst
+.. important:: 
+    
+    Building in BTE is tricky, you can ask in our `Discord <https://discord.gg/Gx3d28v>`_ for tips and questions, and you can submit your application multiple times
 
+```
 You should now have a completed building!
 
 - Submit the build [here](https://buildtheearth.net/bte-northeast) using [imgur](https://imgur.com) to create links
 
 ```eval_rst
-.. tip::
+.. note::
     
     For the question "URL to screenshots(s) of previous builds..." use your newly created build
 ```
