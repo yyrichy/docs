@@ -43,7 +43,7 @@ html_favicon = '../_static/favicon.ico'
 html_theme_options = {
     'sidebar_hide_name': True,
     'navigation_with_keys': True,
-    'announcement': '<em>This site is a work in progress.</em>',
+    'announcement': 'Created by VapoR | <em>This site is a work in progress.</em>',
     'light_logo': 'nelogonew.png',
     'dark_logo': 'nelogonew.png',
     'light_css_variables': {
