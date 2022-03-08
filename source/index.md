@@ -10,13 +10,11 @@ If you want to help build check out the [How to Start Building](start) section f
 ```
 
 ```eval_rst
-.. note::
+.. caution::
 
    This documentation is uncomplete
 
 ```
-
-# Contents
 
 ```eval_rst
 .. toctree::
@@ -25,6 +23,7 @@ If you want to help build check out the [How to Start Building](start) section f
    start
    examples
    id
+   faq
    measure
    headandbanner
    worldedit
