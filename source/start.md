@@ -35,10 +35,9 @@ We have designated application areas for builders to create a trial build. You c
 
         //line 35:4
 
-    .. image:: ../_static/start/outline.mp4
+    .. image:: ../_static/start/outline.gif
         :width: 700
         :alt: Click Here
-
 ```
 
 ## Creating Walls
@@ -56,11 +55,6 @@ We have designated application areas for builders to create a trial build. You c
     Example for yellow wool::
 
         //replace >35:4 35:4
-
-    .. image:: ../_static/start/outline.mp4
-        :width: 700
-        :alt: Click Here
-
 ```
 
 ## Adding House Features

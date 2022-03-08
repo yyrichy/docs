@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. figure:: ../../_static/roofs/roof-dormer.jpeg
-    :width: 600
+    :width: 700
     :alt: Dormer roof
 
     A large dormer roof on a suburban house

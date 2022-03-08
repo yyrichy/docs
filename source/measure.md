@@ -28,8 +28,8 @@
     | ``Left Click + Drag``: Pan around
     | ``Left Click + CTRL + Drag``: Rotate up/down/counter-clockwise/clockwise
 
-.. image:: ../_static/measure/measure.mp4
-    :width: 600
+.. image:: ../_static/measure/measure.gif
+    :width: 700
     :alt: Click Here
 
 ```
@@ -51,7 +51,7 @@ Use doors, cars, humans, and other objects you know the size of, then mentally o
 
 ```eval_rst
 .. image:: ../_static/measure/measure-with-door-house.jpeg
-    :width: 600
+    :width: 700
     :alt: Suburban house
 
 ```
