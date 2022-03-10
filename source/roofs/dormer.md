@@ -7,8 +7,8 @@
 
     A large dormer roof on a suburban house
 
-.. tip:: Dormer roofs come in a large variety of shapes and sizes, but the building procedure is the same. The tricky part is building dormer roofs on a diagonal.
-
+.. tip:: 
+    Dormer roofs come in a large variety of shapes and sizes, but the building procedure is the same. The tricky part is building dormer roofs on a diagonal.
 ```
 
 - Find and mark the "corners" of the dormer roof closest to the edge of the roof in Minecraft. If it is less than 2 wide, mark the center of the wall with one block

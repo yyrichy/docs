@@ -6,9 +6,7 @@ In order to use most WorldEdit commands, you need a block ID of the block(s) you
 
 ```eval_rst
 .. tip:: 
-    
     Use command ``/blocks`` for information on blocks not accessible in the creative inventory
-
 ```
 
 ### Advanced Tool Tips

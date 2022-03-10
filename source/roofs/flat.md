@@ -6,9 +6,6 @@ The most basic of all roofs. Depending on the specific building, it can vary a l
 - Make sure your legs are below the top of the exterior walls
 - Use the command below with a [block ID](id) or pattern of block IDs, making sure the y-level of the walls at your legs has no holes. You should not use a radius larger than 100
 
-```eval_rst
-.. code-block::
-
-       //fill <block-ID> <radius>
-
+```
+//fill <block-ID> <radius>
 ```

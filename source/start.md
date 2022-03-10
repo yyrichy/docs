@@ -68,9 +68,7 @@ You should now have a basic "shell" of the building.
 - Place the [doors, windows, chimneys, fence, patio, every part](detail) of the building. You can find examples of application builds [here](examples)
 ```eval_rst
 .. important:: 
-    
     Building in BTE is tricky, you can ask in our `Discord <https://discord.gg/Gx3d28v>`_ for tips and questions, and you can submit your application multiple times
-
 ```
 You should now have a completed building!
 
@@ -78,6 +76,5 @@ You should now have a completed building!
 
 ```eval_rst
 .. note::
-    
     For the question "URL to screenshots(s) of previous builds..." use your newly created build
 ```

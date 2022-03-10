@@ -4,30 +4,22 @@
 
 ### Banner Plugin
 
-```eval_rst
-.. code-block::
-
-    /banner
-
+```
+/banner
 ```
 
 ### Heads Plugin
 
-```eval_rst
-.. code-block::
-
-    /hdb
-    /hdb search _
-
+```
+/hdb
+/hdb search _
 ```
 
 ## Singleplayer
 
 ```eval_rst
 .. important:: 
-
     Use the legacy 1.12.2 command, not the 1.13+ command
-
 ```
 
 ### Banners

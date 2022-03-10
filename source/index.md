@@ -4,16 +4,12 @@ If you want to help build check out the [How to Start Building](start) section f
 
 ```eval_rst
 .. tip:: 
-    
     Ask in our `Discord <https://discord.gg/Gx3d28v>`_ if you need any help!
-
 ```
 
 ```eval_rst
 .. caution::
-
    This documentation is uncomplete
-
 ```
 
 ```eval_rst
