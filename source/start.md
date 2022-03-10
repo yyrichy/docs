@@ -72,7 +72,7 @@ You should now have a basic "shell" of the building.
 ```
 You should now have a completed building!
 
-- Submit the build [here](https://buildtheearth.net/bte-northeast) using [imgur](https://imgur.com) to create links
+- Submit the build [here](https://buildtheearth.net/bte-northeast) and use [imgur](https://imgur.com) to create links from images
 
 ```eval_rst
 .. note::

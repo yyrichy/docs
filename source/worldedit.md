@@ -4,9 +4,7 @@
 
 ```eval_rst
 .. attention::
-
     Arguments surrounded by ``[ ]`` are optional, those surrounded by ``< >`` are required.
-
 ```
 
 ## Other Resources
@@ -23,19 +21,13 @@
 ## Commands
 ### //set
 Sets selection to the given pattern. Uses a [pattern](#pattern).
-```eval_rst
-.. code-block::
-
-    //set <pattern>
-
+```
+//set <pattern>
 ```
 ### //replace
 Replaces "from" to "to". "from" is a [mask](#mask) and "to" is a [pattern](#pattern).
-```eval_rst
-.. code-block::
-
-    //replace [from] <to>
-
+```
+//replace [from] <to>
 ```
 ## Pattern
 A pattern determines what blocks a command places.
@@ -44,7 +36,7 @@ A pattern determines what blocks a command places.
 
 [single block pattern]: #single-block-pattern
 ### Single Block
-Inorder to WorldEdit with a singular block, use a singular [block ID](id).
+In order to WorldEdit with a singular block, use a singular [block ID](id).
 ```eval_rst
 .. topic:: Example: Setting Orange Wool
 
@@ -55,10 +47,9 @@ Inorder to WorldEdit with a singular block, use a singular [block ID](id).
     Setting a selection to orange wool::
 
         //set 35:1
-
 ```
 ### Random
-Inorder to WorldEdit with multiple blocks in a random pattern, use multiple patterns/[block IDs](id)
+In order to WorldEdit with multiple blocks in a random pattern, use multiple patterns/[block IDs](id)
 
 You can specify weights by adding a `x%` in front of the pattern.
 ```eval_rst
@@ -83,7 +74,6 @@ You can specify weights by adding a `x%` in front of the pattern.
     Command::
 
         //set 20%35:1,20%35:2,60%35:4
-
 ```
 ## Mask
 [Detailed explanation of a mask](https://worldedit.enginehub.org/en/latest/usage/general/masks/), including advanced types of patterns. (Explanation uses 1.13+ names, keep in mind we use [1.12.2 IDs](id) It also contains features not present in our older version of WorldEdit)
@@ -100,7 +90,6 @@ Works the same as a [single block](#single-block) or [random block](#random) pat
     Command::
 
         //replace 35:1 35:2
-
 ```
 ### Negation
 Adding a `!` negates everything after it. Another way to look at it: the result does the opposite of the mask after the `!`.
@@ -116,12 +105,11 @@ Adding a `!` negates everything after it. Another way to look at it: the result 
     Command::
 
         //replace !35:1 1
-
 ```
 ### Offset
 Adding a `>` before another mask matches blocks above the mask, adding a `<` matches blocks below the mask.
 ```eval_rst
-.. topic:: Example: Replacing everything above orange wool with polished diroite
+.. topic:: Example: Replacing everything above orange wool with polished diorite
 
     The mask ``35:1`` matches all orange wool, adding a ``>`` matches everything above orange wool.
 
@@ -132,5 +120,4 @@ Adding a `>` before another mask matches blocks above the mask, adding a `<` mat
     Command::
 
         //replace >35:1 1:4
-
 ```

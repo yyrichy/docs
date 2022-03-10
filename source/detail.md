@@ -2,7 +2,7 @@
 
 ## Door
 
-There's a huge amount of door styles that require differnet techiniques, but here are a few common examples.
+There's a huge amount of door styles that require different techniques, but here are a few common examples.
 
 ### Suburban
 

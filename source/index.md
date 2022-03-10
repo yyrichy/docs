@@ -9,7 +9,7 @@ If you want to help build check out the [How to Start Building](start) section f
 
 ```eval_rst
 .. caution::
-   This documentation is uncomplete
+   This documentation is incomplete
 ```
 
 ```eval_rst
