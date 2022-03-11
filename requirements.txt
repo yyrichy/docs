@@ -1,5 +1,5 @@
-sphinx>3
+sphinx>4.4.0
 furo
 sphinx-panels
 sphinx-autobuild
-recommonmark
+recommonmark>0.7.1
