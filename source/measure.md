@@ -1,12 +1,10 @@
 # Measuring
-
 ```eval_rst
 .. caution::
     This page is **not** for adjusting terrain, it is for measuring heights of walls and windows, lengths of roof elements, etc
 ```
 
 ## Google Earth Pro
-
 *A computer is required*
 
 ```eval_rst
@@ -29,7 +27,6 @@
 ```
 
 ## Estimate
-
 By applying logic and experience you will gain, you can estimate the sizes of most things based on street view/images. Estimating is best done through street view, photo spheres, or normal photos.
 
 ```eval_rst
@@ -40,7 +37,6 @@ By applying logic and experience you will gain, you can estimate the sizes of mo
 Use doors, cars, humans, and other objects you know the size of, then mentally or through photo editing software, compare them to the object you are trying to measure.
 
 ### Example
-
 ```eval_rst
 .. image:: ../_static/measure/measure-with-door-house.jpeg
     :width: 700

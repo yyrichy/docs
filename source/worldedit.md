@@ -1,5 +1,4 @@
 # WorldEdit
-
 [WorldEdit](https://enginehub.org/worldedit/) has many and many abilities this document only covers some of them.
 
 ```eval_rst
@@ -8,15 +7,13 @@
 ```
 
 ## Other Resources
-
 * [Building Guidebook](https://docs.google.com/document/d/1L7fzjEC3KnxSA-1OKdTy_4xBpbkG-4aTQ1ogXlqRJPA/edit#heading=h.km1t1mqmynvf)
 * [Official WorldEdit Docs](https://worldedit.enginehub.org/en/latest/commands/) (Documents a WorldEdit version more recent than the one we use, so some things act differently)
 * [Grian's Video](https://www.youtube.com/watch?v=SOOvommDpUA)
 * [Unofficial Fandom](https://minecraft-worldedit.fandom.com/wiki/Worldedit_Commands)
 
 ## Creating A Selection
-
-**Selections are an important part of WorldEdit and you need to learn it first.** Read [this](https://worldedit.enginehub.org/en/latest/usage/regions/selections/#selecting-cuboids).
+**Selections are a fundamental part of WorldEdit** and you need to learn it first by reading [**this**](https://worldedit.enginehub.org/en/latest/usage/regions/selections/#selecting-cuboids).
 
 ## Commands
 ### //set
@@ -24,11 +21,13 @@ Sets selection to the given [pattern](#pattern).
 ```
 //set <pattern>
 ```
+
 ### //replace
 Replaces "from" to "to". "from" is a [mask](#mask) and "to" is a [pattern](#pattern).
 ```
 //replace [from] <to>
 ```
+
 ## Pattern
 A pattern determines what blocks a command places. For basics you only need to learn the [single block pattern](#single-block) and [random block pattern](#random).
 
@@ -48,6 +47,7 @@ In order to WorldEdit with a singular block, use a singular [block ID](id).
 
         //set 35:1
 ```
+
 ### Random
 In order to WorldEdit with multiple blocks in a random pattern, use multiple patterns/[block IDs](id)
 
@@ -75,6 +75,7 @@ You can specify weights by adding a `x%` in front of the pattern.
 
         //set 20%35:1,20%35:2,60%35:4
 ```
+
 ## Mask
 Masks determine what blocks a command effects
 
@@ -93,6 +94,7 @@ Works the same as a [single block](#single-block) or [random block](#random) pat
 
         //replace 35:1,35:4 35:2
 ```
+
 ### Negation
 Adding a `!` negates everything after it. Another way to look at it: the result does the opposite of the mask after the `!`.
 ```eval_rst
@@ -108,6 +110,7 @@ Adding a `!` negates everything after it. Another way to look at it: the result 
 
         //replace !35:1 1
 ```
+
 ### Offset
 Adding a `>` before another mask matches blocks above the mask, adding a `<` matches blocks below the mask.
 ```eval_rst

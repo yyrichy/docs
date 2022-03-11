@@ -1,5 +1,4 @@
 # Welcome to BTE Northeast's Documentation!
-
 If you want to help build check out the [How to Start Building](start) section for further information.
 
 ```eval_rst

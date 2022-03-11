@@ -12,14 +12,13 @@ We have designated application areas for builders to create a trial build. You c
 
 1. Type the command `/apply` in chat
 2. If you are in spectator mode you will be automatically teleported to the **Suburban** application area, else pick an application area: **Suburban** or **Urban**
-> If you want to choose a different application area, or you weren't given a choice, use the command `/apply` again
+> If you want to choose a different application area, or you weren't given a choice, use the command `/apply` again.
 
 ## Choosing a Building
 1. Fly around in the application area in Minecraft and find an area with no building below you
-2. Use the command `/terra where` and open the Google Maps link. The map is your Minecraft location in real life.
+2. Use the command `/terra where` and open the Google Maps link. The map is your Minecraft location in real life
 
 ## Creating Outline
-
 ```eval_rst
 .. topic:: Example: Creating an outline
 
@@ -58,7 +57,6 @@ We have designated application areas for builders to create a trial build. You c
 ```
 
 ## Adding House Features
-
 Keep in mind ONE Minecraft block is the equivalent of ONE METER cubed in real life. If a window is 1 meter tall IRL, then it should be one block tall in Minecraft, even if it might look weird to you.
 
 - [Create the roof](roofs/index) of the building

@@ -1,5 +1,4 @@
 # Dormer
-
 ```eval_rst
 .. figure:: ../../_static/roofs/roof-dormer.jpeg
     :width: 700

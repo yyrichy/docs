@@ -43,9 +43,7 @@ Find a lamp [custom head](headandbanner) closely resembling the one IRL.
 ...
 
 ## Pergola (Deck / Patio Roof)
-
 ...
 
 ## Sign
-
 Use a [head/banner](headandbanner).
