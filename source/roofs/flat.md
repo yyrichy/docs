@@ -8,3 +8,5 @@ The most basic of all roofs. Depending on the specific building, it can vary a l
 ```
 //fill <block-ID> <radius>
 ```
+
+Detailed explanation of //fill [here](../../worldedit#fill).

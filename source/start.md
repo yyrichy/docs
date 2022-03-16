@@ -24,7 +24,7 @@ We have designated application areas for builders to create a trial build. You c
 
     Mark each corner of the building, then select the two corners of and connect them for each wall with ``//line``. We use ``//line`` to create a straight line at any angle.
     
-    This command uses a :ref:`pattern <Pattern>`. For this case use a :ref:`single block pattern <Single Block>`.
+    This command uses a :ref:`pattern <Patterns>`. For this case use a :ref:`single block pattern <Single Block Pattern>`.
 
     Command::
 
@@ -45,7 +45,7 @@ We have designated application areas for builders to create a trial build. You c
 ```eval_rst
 .. topic:: Example: Stacking up walls
 
-    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. :ref:`<mask> <Mask>` and :ref:`<pattern> <Pattern>` are the :ref:`block ID <Block ID>` for the :ref:`single block pattern <Single Block>` you used creating the outline. The ``>`` is an :ref:`offset mask <Offset>`.
+    :ref:`Select <Creating a Selection>` the entire outline and the height of the wall above it. :ref:`<mask> <Masks>` and :ref:`<pattern> <Patterns>` are the :ref:`block ID <Block ID>` for the :ref:`single block pattern <Single Block Pattern>` you used creating the outline. The ``>`` is an :ref:`offset mask <Offset Mask>`.
 
     Command::
 
