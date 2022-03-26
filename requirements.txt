@@ -1,4 +1,4 @@
-sphinx>4.4.0
+sphinx>3
 furo
 sphinx-panels
 sphinx-autobuild
